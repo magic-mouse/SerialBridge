@@ -16,5 +16,8 @@
             </manifest>
             <fileset dir="${dir.buildfile}/bin"/>
         </jar>
+        <target name="compile">
+            <echo message="Compiling source code"/>
+        </target>
     </target>
 </project>
